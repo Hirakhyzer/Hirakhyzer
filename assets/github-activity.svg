@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-label="GitHub activity and profile summary">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="10%" r="90%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".28"/></filter>
+    <style>
+      .title{font:800 30px Arial,Helvetica,sans-serif;fill:#f8fafc;letter-spacing:-.4px}
+      .sub{font:500 15px Arial,Helvetica,sans-serif;fill:#cbd5e1}
+      .num{font:800 31px Arial,Helvetica,sans-serif;fill:#67e8f9}
+      .label{font:700 14px Arial,Helvetica,sans-serif;fill:#e2e8f0}
+      .small{font:500 12px Arial,Helvetica,sans-serif;fill:#94a3b8}
+      .chip{font:700 12px Arial,Helvetica,sans-serif;fill:#e0f2fe}
+    </style>
+  </defs>
+  <rect width="1100" height="340" rx="30" fill="url(#bg)"/>
+  <rect width="1100" height="340" rx="30" fill="url(#glow)"/>
+  <text class="title" x="550" y="52" text-anchor="middle">GitHub Activity + Engineering Focus</text>
+  <text class="sub" x="550" y="80" text-anchor="middle">A growing portfolio of AI, cybersecurity, AIoT, cyber-physical systems, and software engineering projects.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="120" width="220" height="115" rx="24" fill="#0f172a" stroke="#334155"/>
+    <text class="num" x="180" y="165" text-anchor="middle">Research</text>
+    <text class="label" x="180" y="193" text-anchor="middle">Project identity</text>
+    <text class="small" x="180" y="214" text-anchor="middle">documented, reproducible, visual</text>
+
+    <rect x="320" y="120" width="220" height="115" rx="24" fill="#0f172a" stroke="#334155"/>
+    <text class="num" x="430" y="165" text-anchor="middle">AI + CPS</text>
+    <text class="label" x="430" y="193" text-anchor="middle">Core direction</text>
+    <text class="small" x="430" y="214" text-anchor="middle">intelligent connected systems</text>
+
+    <rect x="570" y="120" width="220" height="115" rx="24" fill="#0f172a" stroke="#334155"/>
+    <text class="num" x="680" y="165" text-anchor="middle">Security</text>
+    <text class="label" x="680" y="193" text-anchor="middle">Trustworthy systems</text>
+    <text class="small" x="680" y="214" text-anchor="middle">privacy, detection, resilience</text>
+
+    <rect x="820" y="120" width="220" height="115" rx="24" fill="#0f172a" stroke="#334155"/>
+    <text class="num" x="930" y="165" text-anchor="middle">Code</text>
+    <text class="label" x="930" y="193" text-anchor="middle">Software engineering</text>
+    <text class="small" x="930" y="214" text-anchor="middle">clean repos, tests, documentation</text>
+  </g>
+
+  <g transform="translate(175 270)">
+    <rect x="0" y="0" width="100" height="28" rx="14" fill="#0e7490"/><text class="chip" x="50" y="19" text-anchor="middle">AIoT</text>
+    <rect x="116" y="0" width="74" height="28" rx="14" fill="#6d28d9"/><text class="chip" x="153" y="19" text-anchor="middle">AI</text>
+    <rect x="206" y="0" width="134" height="28" rx="14" fill="#b91c1c"/><text class="chip" x="273" y="19" text-anchor="middle">Cybersecurity</text>
+    <rect x="356" y="0" width="210" height="28" rx="14" fill="#047857"/><text class="chip" x="461" y="19" text-anchor="middle">Cyber-Physical Systems</text>
+    <rect x="582" y="0" width="188" height="28" rx="14" fill="#1d4ed8"/><text class="chip" x="676" y="19" text-anchor="middle">Software Engineering</text>
+  </g>
+</svg>
