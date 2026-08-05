@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-label="Featured GitHub research repositories">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#0f172a" flood-opacity=".10"/></filter>
+    <style>
+      .title{font:800 34px Arial,Helvetica,sans-serif;fill:#0f172a;letter-spacing:-.7px}
+      .subtitle{font:500 16px Arial,Helvetica,sans-serif;fill:#475569}
+      .repo{font:800 21px Arial,Helvetica,sans-serif;fill:#0f172a}
+      .desc{font:500 14px Arial,Helvetica,sans-serif;fill:#475569}
+      .tag{font:700 12px Arial,Helvetica,sans-serif;fill:#fff}
+      .mini{font:700 13px Arial,Helvetica,sans-serif;fill:#334155}
+    </style>
+  </defs>
+  <rect width="1200" height="660" rx="30" fill="url(#bg)"/>
+  <text class="title" x="600" y="56" text-anchor="middle">Featured Research-Style Repositories</text>
+  <text class="subtitle" x="600" y="86" text-anchor="middle">AI, cybersecurity, healthcare, knowledge graphs, human-AI collaboration, and scholarly automation</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="130" width="500" height="130" rx="24" fill="url(#card)" stroke="#dbeafe"/>
+    <circle cx="112" cy="171" r="22" fill="#7c3aed"/><text x="112" y="179" text-anchor="middle" font-family="Arial" font-size="19" font-weight="800" fill="#fff">SG</text>
+    <text class="repo" x="150" y="164">ScholarGraph-AI</text>
+    <text class="desc" x="150" y="192">Research intelligence platform for papers, gaps, literature</text>
+    <text class="desc" x="150" y="214">matrices, and knowledge graph roadmaps.</text>
+    <rect x="150" y="230" width="98" height="22" rx="11" fill="#7c3aed"/><text class="tag" x="199" y="246" text-anchor="middle">Research AI</text>
+    <rect x="260" y="230" width="112" height="22" rx="11" fill="#06b6d4"/><text class="tag" x="316" y="246" text-anchor="middle">Knowledge Graphs</text>
+
+    <rect x="630" y="130" width="500" height="130" rx="24" fill="url(#card)" stroke="#dbeafe"/>
+    <circle cx="672" cy="171" r="22" fill="#06b6d4"/><text x="672" y="179" text-anchor="middle" font-family="Arial" font-size="19" font-weight="800" fill="#fff">KG</text>
+    <text class="repo" x="710" y="164">knowledge-graphs</text>
+    <text class="desc" x="710" y="192">Graph-based intelligence lab for entities, relations,</text>
+    <text class="desc" x="710" y="214">reasoning paths, and research analytics.</text>
+    <rect x="710" y="230" width="100" height="22" rx="11" fill="#0891b2"/><text class="tag" x="760" y="246" text-anchor="middle">Graph AI</text>
+    <rect x="822" y="230" width="110" height="22" rx="11" fill="#0f766e"/><text class="tag" x="877" y="246" text-anchor="middle">Reasoning</text>
+
+    <rect x="70" y="295" width="500" height="130" rx="24" fill="url(#card)" stroke="#dbeafe"/>
+    <circle cx="112" cy="336" r="22" fill="#10b981"/><text x="112" y="344" text-anchor="middle" font-family="Arial" font-size="19" font-weight="800" fill="#fff">HA</text>
+    <text class="repo" x="150" y="329">human_ai_collaboration</text>
+    <text class="desc" x="150" y="357">Human-centered AI and software engineering lab for</text>
+    <text class="desc" x="150" y="379">debugging, review, trust, and decision support.</text>
+    <rect x="150" y="395" width="120" height="22" rx="11" fill="#059669"/><text class="tag" x="210" y="411" text-anchor="middle">Human-AI</text>
+    <rect x="282" y="395" width="126" height="22" rx="11" fill="#2563eb"/><text class="tag" x="345" y="411" text-anchor="middle">Software Eng.</text>
+
+    <rect x="630" y="295" width="500" height="130" rx="24" fill="url(#card)" stroke="#dbeafe"/>
+    <circle cx="672" cy="336" r="22" fill="#ef4444"/><text x="672" y="344" text-anchor="middle" font-family="Arial" font-size="19" font-weight="800" fill="#fff">NA</text>
+    <text class="repo" x="710" y="329">network-anomaly-detection</text>
+    <text class="desc" x="710" y="357">Trustworthy cybersecurity ML lab for abnormal traffic,</text>
+    <text class="desc" x="710" y="379">baselines, deep models, and graph-temporal detection.</text>
+    <rect x="710" y="395" width="115" height="22" rx="11" fill="#dc2626"/><text class="tag" x="767" y="411" text-anchor="middle">Cybersecurity</text>
+    <rect x="837" y="395" width="92" height="22" rx="11" fill="#2563eb"/><text class="tag" x="883" y="411" text-anchor="middle">PyTorch</text>
+
+    <rect x="70" y="460" width="500" height="130" rx="24" fill="url(#card)" stroke="#dbeafe"/>
+    <circle cx="112" cy="501" r="22" fill="#0ea5e9"/><text x="112" y="509" text-anchor="middle" font-family="Arial" font-size="18" font-weight="800" fill="#fff">CF</text>
+    <text class="repo" x="150" y="494">CareFed-TrustLab</text>
+    <text class="desc" x="150" y="522">Privacy-preserving federated learning prototype for</text>
+    <text class="desc" x="150" y="544">connected healthcare and trustworthy AI research.</text>
+    <rect x="150" y="560" width="118" height="22" rx="11" fill="#0284c7"/><text class="tag" x="209" y="576" text-anchor="middle">Healthcare AI</text>
+    <rect x="280" y="560" width="128" height="22" rx="11" fill="#7c3aed"/><text class="tag" x="344" y="576" text-anchor="middle">Federated ML</text>
+
+    <rect x="630" y="460" width="500" height="130" rx="24" fill="url(#card)" stroke="#dbeafe"/>
+    <circle cx="672" cy="501" r="22" fill="#f59e0b"/><text x="672" y="509" text-anchor="middle" font-family="Arial" font-size="18" font-weight="800" fill="#fff">PR</text>
+    <text class="repo" x="710" y="494">AI Paper Reviewer Assistant</text>
+    <text class="desc" x="710" y="522">Reviewer-support system for summaries, methodology</text>
+    <text class="desc" x="710" y="544">audits, citation coverage, and reproducibility checks.</text>
+    <rect x="710" y="560" width="104" height="22" rx="11" fill="#d97706"/><text class="tag" x="762" y="576" text-anchor="middle">Peer Review</text>
+    <rect x="826" y="560" width="132" height="22" rx="11" fill="#7c3aed"/><text class="tag" x="892" y="576" text-anchor="middle">Research Tools</text>
+  </g>
+</svg>
