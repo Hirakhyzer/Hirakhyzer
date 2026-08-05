@@ -44,18 +44,19 @@ I enjoy turning complex ideas into clean systems, beautiful repositories, reprod
 ## Featured research-style repositories
 
 <p align="center">
-  <a href="https://github.com/Hirakhyzer/ScholarGraph-AI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hirakhyzer&repo=ScholarGraph-AI&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/Hirakhyzer/knowledge-graphs"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hirakhyzer&repo=knowledge-graphs&theme=tokyonight&hide_border=true" /></a>
+  <img src="assets/featured-repositories.svg" alt="Featured research-style GitHub repositories" width="95%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hirakhyzer/human_ai_collaboration"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hirakhyzer&repo=human_ai_collaboration&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/Hirakhyzer/network-anomaly-detection"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hirakhyzer&repo=network-anomaly-detection&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/Hirakhyzer/ScholarGraph-AI"><b>ScholarGraph-AI</b></a> ·
+  <a href="https://github.com/Hirakhyzer/knowledge-graphs"><b>knowledge-graphs</b></a> ·
+  <a href="https://github.com/Hirakhyzer/human_ai_collaboration"><b>human_ai_collaboration</b></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Hirakhyzer/CareFed-TrustLab"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hirakhyzer&repo=CareFed-TrustLab&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/Hirakhyzer/ai-powered-research-paper-reviewer-assistant"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Hirakhyzer&repo=ai-powered-research-paper-reviewer-assistant&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/Hirakhyzer/network-anomaly-detection"><b>network-anomaly-detection</b></a> ·
+  <a href="https://github.com/Hirakhyzer/CareFed-TrustLab"><b>CareFed-TrustLab</b></a> ·
+  <a href="https://github.com/Hirakhyzer/ai-powered-research-paper-reviewer-assistant"><b>AI Paper Reviewer Assistant</b></a>
 </p>
 
 ---
@@ -71,12 +72,7 @@ I enjoy turning complex ideas into clean systems, beautiful repositories, reprod
 ## GitHub activity
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=Hirakhyzer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="175" src="https://github-readme-streak-stats.herokuapp.com?user=Hirakhyzer&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hirakhyzer&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img src="assets/github-activity.svg" alt="GitHub activity and engineering focus" width="92%" />
 </p>
 
 ---
