@@ -1,91 +1,289 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Hira Khyzer GitHub profile banner" width="100%" />
-</p>
+<div align="center">
 
-<h1 align="center">Hi, I'm Hira Khyzer 👋</h1>
+<!-- IMAGE PLACEHOLDER: HERO / PROFILE BANNER
+Suggested future asset: assets/profile-banner.png
+Recommended size: 1600 × 500
+Concept: clean light-background research banner combining trustworthy CPS, digital twins, formal verification, AI, software quality, and assurance graphs.
+-->
 
-<p align="center">
-  <b>Computer Scientist focused on AIoT, Artificial Intelligence, Cybersecurity, Cyber-Physical Systems, and Software Engineering.</b>
-</p>
+# Hira Khyzer
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hirakhyzer&style=for-the-badge&color=0ea5e9" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Computer-Scientist-7C3AED?style=for-the-badge" alt="Computer Scientist" />
-  <img src="https://img.shields.io/badge/AIoT-Connected--Intelligence-06B6D4?style=for-the-badge" alt="AIoT" />
-  <img src="https://img.shields.io/badge/Cybersecurity-Trustworthy--Systems-EF4444?style=for-the-badge" alt="Cybersecurity" />
-</p>
+### Computer Scientist • Trustworthy AI • Cyber-Physical Systems • Software Engineering
+
+I build research-oriented software around **trustworthy cyber-physical systems, digital twins, formal verification, runtime assurance, software quality, AI-assisted engineering, and human-centered intelligent systems**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Hirakhyzer-181717?style=for-the-badge&logo=github)](https://github.com/Hirakhyzer)
+![Research](https://img.shields.io/badge/Focus-Trustworthy%20Systems-2563EB?style=for-the-badge)
+![CPS](https://img.shields.io/badge/Cyber--Physical-Systems-0F766E?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Research-7C3AED?style=for-the-badge)
+
+</div>
 
 ---
 
 ## About me
 
-I build intelligent, secure, and human-centered computing systems. My work connects **AI**, **software engineering**, **cybersecurity**, **AIoT**, and **cyber-physical systems** to design research prototypes, automation tools, decision-support platforms, and trustworthy digital infrastructure.
+I am interested in building computing systems that are not only intelligent, but also **inspectable, testable, resilient, reproducible, and worthy of trust**.
 
-I enjoy turning complex ideas into clean systems, beautiful repositories, reproducible experiments, and practical tools that are easy to understand and extend.
+My work connects several areas that are often studied separately:
 
-<p align="center">
-  <img src="assets/domain-map.svg" alt="Research and engineering focus map" width="92%" />
-</p>
+- **Cyber-Physical Systems** — safety, resilience, uncertainty, runtime behavior, and intelligent infrastructure.
+- **Digital Twins** — state estimation, evidence fusion, monitoring, benchmarking, and trustworthy decision support.
+- **Formal Methods & Runtime Assurance** — reachability analysis, safety verification, safety shields, evidence manifests, and assurance cases.
+- **Software Quality Engineering** — longitudinal quality modeling, release-risk forecasting, agentic SQA, testing, and explainability.
+- **Artificial Intelligence** — research assistants, human-AI collaboration, adaptive interfaces, knowledge graphs, and intelligent engineering tools.
+- **Cybersecurity** — anomaly detection, bounded cyber effects, resilient architectures, and security-aware system design.
+
+I enjoy turning research questions into **working repositories, reproducible experiments, benchmark frameworks, technical documentation, and clear visual systems**.
 
 ---
 
-## Core interests
+## Current research direction
 
-| Area | What I focus on |
+<!-- IMAGE PLACEHOLDER: RESEARCH ECOSYSTEM MAP
+Suggested future asset: assets/research-ecosystem.png
+Recommended size: 1500 × 850
+Concept: Digital Twin → Formal Verification → Runtime Assurance → Evidence Graph → Human Review,
+with Software Quality and AI-assisted engineering as connected research tracks.
+-->
+
+A large part of my current work explores how trustworthy systems can maintain assurance across the full lifecycle:
+
+```text
+System / Software
+      │
+      ├──> Digital Twin & Monitoring
+      │
+      ├──> Formal Verification
+      │
+      ├──> Runtime Assurance
+      │
+      ├──> Software Quality Intelligence
+      │
+      └──> Evidence & Assurance Graphs
+                     │
+                     ↓
+              Human Review
+                     │
+                     ↓
+          Safer, More Trustworthy Systems
+```
+
+The long-term theme is simple:
+
+> **How can intelligent systems remain useful while making their assumptions, evidence, uncertainty, decisions, and safety boundaries visible?**
+
+---
+
+## Research pillars
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Trustworthy Cyber-Physical Systems
+
+Research on resilient and safety-aware CPS across batteries, water systems, robots, microgrids, factories, EV charging, and railway signaling.
+
+**Themes:**  
+digital twins · uncertainty · anomaly detection · resilience · cyber effects · runtime protection
+
+</td>
+<td width="50%" valign="top">
+
+### Formal Verification & Runtime Assurance
+
+Research on proving bounded safety properties and enforcing safety online when nominal control actions become unsafe.
+
+**Themes:**  
+reachability analysis · safety properties · verification evidence · runtime shields · fallback policies · audit traces
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Software Quality Intelligence
+
+Research on software-quality digital twins, longitudinal degradation, release-risk forecasting, telemetry robustness, and trustworthy agentic SQA.
+
+**Themes:**  
+software analytics · testing · release risk · quality drift · explainability · evidence quality
+
+</td>
+<td width="50%" valign="top">
+
+### Human-Centered & Applied AI
+
+Research and engineering around human-AI collaboration, adaptive interfaces, research automation, knowledge graphs, and intelligent assistance.
+
+**Themes:**  
+human-AI interaction · cognitive load · research tools · knowledge systems · applied ML
+
+</td>
+</tr>
+</table>
+
+---
+
+## Selected research repositories
+
+<!-- IMAGE PLACEHOLDER: FEATURED PROJECTS VISUAL
+Suggested future asset: assets/featured-projects.png
+Recommended size: 1500 × 900
+Concept: 6–8 project cards arranged as a clean research portfolio overview.
+-->
+
+### Trustworthy CPS & Assurance
+
+| Repository | Focus |
 |---|---|
-| **Artificial Intelligence** | intelligent assistants, decision support, research automation, applied ML |
-| **AIoT** | connected devices, sensor intelligence, smart environments, edge-AI workflows |
-| **Cybersecurity** | anomaly detection, secure systems, vulnerability analysis, privacy-aware design |
-| **Cyber-Physical Systems** | intelligent infrastructure, smart cities, digital twins, resilient systems |
-| **Software Engineering** | clean architecture, automation platforms, developer tools, reproducible research code |
+| [**assurance-case-evidence-graph-cps**](https://github.com/Hirakhyzer/assurance-case-evidence-graph-cps) | Living assurance cases, provenance-preserving evidence graphs, graph snapshots, change-impact analysis, and continuous assurance research. |
+| [**automatic-formal-verification-cps**](https://github.com/Hirakhyzer/automatic-formal-verification-cps) | Reachability-based formal verification of CPS safety under bounded uncertainty and abstract cyber effects. |
+| [**runtime-assurance-cps-safety-shield**](https://github.com/Hirakhyzer/runtime-assurance-cps-safety-shield) | Reachability-guided runtime safety shields, intervention analysis, audit traces, and shielded-vs-unshielded evaluation. |
+| [**trustworthy-digital-twin-cps-benchmark**](https://github.com/Hirakhyzer/trustworthy-digital-twin-cps-benchmark) | Benchmarking trustworthy digital-twin behavior across CPS domains. |
+| [**federated-trustworthy-digital-twin-cps**](https://github.com/Hirakhyzer/federated-trustworthy-digital-twin-cps) | Federated and distributed trustworthy digital-twin intelligence. |
+
+### Software Quality & AI Engineering
+
+| Repository | Focus |
+|---|---|
+| [**software-quality-digital-twin-lab**](https://github.com/Hirakhyzer/software-quality-digital-twin-lab) | Versioned software-quality twins, drift detection, release-risk forecasting, robustness, and evidence-quality assurance. |
+| [**agentic-ai-software-quality-assurance**](https://github.com/Hirakhyzer/agentic-ai-software-quality-assurance) | Agentic AI workflows for software testing and quality assurance research. |
+| [**trustworthy-agentic-software-quality-assurance**](https://github.com/Hirakhyzer/trustworthy-agentic-software-quality-assurance) | Trust, evidence, controls, and evaluation for agentic software-quality systems. |
+
+### Human-Centered AI & Intelligent Tools
+
+| Repository | Focus |
+|---|---|
+| [**adaptive-ai-interface-cognitive-load-lab**](https://github.com/Hirakhyzer/adaptive-ai-interface-cognitive-load-lab) | Adaptive AI interfaces and cognitive-load-aware interaction research. |
+| [**human_ai_collaboration**](https://github.com/Hirakhyzer/human_ai_collaboration) | Human-AI collaboration and interactive intelligent systems. |
+| [**knowledge-graphs**](https://github.com/Hirakhyzer/knowledge-graphs) | Knowledge representation and graph-centered intelligent systems. |
 
 ---
 
-## Featured research-style repositories
+## CPS research portfolio
+
+I also maintain domain-focused CPS repositories that let broader assurance ideas be explored in different system settings.
 
 <p align="center">
-  <img src="assets/featured-repositories.svg" alt="Featured research-style GitHub repositories" width="95%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Hirakhyzer/ScholarGraph-AI"><b>ScholarGraph-AI</b></a> ·
-  <a href="https://github.com/Hirakhyzer/knowledge-graphs"><b>knowledge-graphs</b></a> ·
-  <a href="https://github.com/Hirakhyzer/human_ai_collaboration"><b>human_ai_collaboration</b></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Hirakhyzer/network-anomaly-detection"><b>network-anomaly-detection</b></a> ·
-  <a href="https://github.com/Hirakhyzer/CareFed-TrustLab"><b>CareFed-TrustLab</b></a> ·
-  <a href="https://github.com/Hirakhyzer/ai-powered-research-paper-reviewer-assistant"><b>AI Paper Reviewer Assistant</b></a>
+  <a href="https://github.com/Hirakhyzer/resilient-battery-management-cps">Battery Management</a> ·
+  <a href="https://github.com/Hirakhyzer/secure-water-treatment-cps">Water Treatment</a> ·
+  <a href="https://github.com/Hirakhyzer/secure-autonomous-robot-cps">Autonomous Robot</a> ·
+  <a href="https://github.com/Hirakhyzer/cyber-resilient-smart-microgrid-cps">Smart Microgrid</a> ·
+  <a href="https://github.com/Hirakhyzer/trustworthy-smart-factory-cps">Smart Factory</a> ·
+  <a href="https://github.com/Hirakhyzer/cyber-resilient-ev-charging-cps">EV Charging</a> ·
+  <a href="https://github.com/Hirakhyzer/cyber-resilient-railway-signaling-cps">Railway Signaling</a>
 </p>
 
 ---
 
-## Tech stack
+## How I like to build research software
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,nodejs,fastapi,flask,pytorch,tensorflow,sklearn,postgres,mongodb,docker,git,github,linux,vscode,matlab" alt="Tech stack icons" />
-</p>
+I try to make repositories useful as **research artifacts**, not just code dumps. That means emphasizing:
+
+```text
+Clear research question
+        ↓
+Explicit assumptions
+        ↓
+Reproducible implementation
+        ↓
+Benchmarks / experiments
+        ↓
+Evaluation metrics
+        ↓
+Threats to validity
+        ↓
+Readable documentation
+        ↓
+Traceable evidence
+```
+
+The goal is to keep the connection between **idea → implementation → evidence → conclusion** visible.
+
+---
+
+## Technical toolkit
+
+<div align="center">
+
+### Languages & Computing
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111)
+
+### AI, Data & Research
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+### Software & Infrastructure
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</div>
+
+---
+
+## What you will find here
+
+Most of my repositories fall into one of these categories:
+
+- **Research prototypes** testing a concrete technical question.
+- **Benchmark frameworks** for comparing methods under controlled conditions.
+- **CPS domain studies** for safety, resilience, and trustworthy digital twins.
+- **Software-quality systems** for testing, forecasting, and release assurance.
+- **AI research tools** for knowledge work, collaboration, and intelligent interfaces.
+- **Engineering experiments** that turn research ideas into executable systems.
 
 ---
 
 ## GitHub activity
 
+<!-- IMAGE PLACEHOLDER: GITHUB ACTIVITY / STATS PANEL
+Suggested future asset: assets/github-activity.png
+Recommended size: 1400 × 650
+Concept: custom light-theme panel showing repositories by research area, recent activity, and selected contribution metrics.
+Avoid generic auto-generated dark GitHub stat cards; we can design a cleaner custom panel later.
+-->
+
+For now, the best view of my activity is simply the repository collection itself:
+
 <p align="center">
-  <img src="assets/github-activity.svg" alt="GitHub activity and engineering focus" width="92%" />
+  <a href="https://github.com/Hirakhyzer?tab=repositories"><b>Explore all repositories →</b></a>
 </p>
 
 ---
 
-## Current direction
+## Research philosophy
 
-```text
-Designing intelligent systems that combine research quality, secure engineering,
-beautiful documentation, and practical software implementation.
-```
+> **Trustworthy systems should make their evidence, assumptions, uncertainty, and limitations easier to inspect — not harder.**
+
+I am especially interested in work where **AI, software engineering, cybersecurity, digital twins, and formal assurance** meet.
 
 ---
 
-<p align="center">
-  <b>AIoT • AI • Cybersecurity • Cyber-Physical Systems • Software Engineering</b>
-</p>
+<div align="center">
+
+<!-- IMAGE PLACEHOLDER: FOOTER / CLOSING VISUAL
+Suggested future asset: assets/profile-footer.png
+Recommended size: 1600 × 350
+Concept: minimal closing visual with connected nodes / digital twin / assurance motif.
+-->
+
+### Building intelligent systems with stronger evidence, clearer assumptions, and better engineering.
+
+**Trustworthy AI · Cyber-Physical Systems · Digital Twins · Formal Verification · Runtime Assurance · Software Quality**
+
+</div>
